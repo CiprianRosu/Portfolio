@@ -5,7 +5,7 @@ import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
 import designIcon from "./images/design.svg"
 import codeIcon from "./images/code.svg"
-import profileIcon from "./images/profile.svg"
+// import profileIcon from "./images/profile.svg"
 import firebaseIcon from "./images/firebase.svg"
 
 // Social Icon
@@ -15,7 +15,7 @@ import githubIcon from "./images/github.svg"
 // import instagramIcon from "./images/instagram.svg"
 import linkedinIcon from "./images/linkedin.svg"
 
-export default {
+const data = {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
@@ -201,5 +201,7 @@ export default {
 
   // End Contact Section ---------------
 }
+
+export default data
 
 
