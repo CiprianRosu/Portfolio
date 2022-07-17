@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './components/Nabar'
+import Navbar from './components/Navbar'
 import Header from './components/Header'
 import Work from './components/Work'
 import About from './components/About'
@@ -7,14 +7,15 @@ import Skills from './components/Skills'
 import Footer from './components/Footer'
 
 const App = () => {
+  console.log(window.location)
   return (
     <div>
-    <Navbar></Navbar>
-    <Header></Header>
-    <Work></Work>
-    <About></About>
-    <Skills></Skills>
-    <Footer></Footer>
+    <Navbar/>
+    <Header/>
+    <Work/> 
+    <About/>
+    <Skills/>
+    <Footer/>
     </div>
   )
 }

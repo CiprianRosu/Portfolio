@@ -16,6 +16,8 @@
 
 * {
   font-family: "Montserrat";
+  scroll-behavior: smooth;
+
 }
 
 body {

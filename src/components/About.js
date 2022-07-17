@@ -5,7 +5,7 @@ import '../styles/about.scss'
 
 const About = () => {
   return (
-    <div className="section" id="skills">
+    <div className="section" id="about">
       <div className="container">
         <div className="promotion-container">
           <Fade bottom cascade>
