@@ -1,8 +1,9 @@
 import React from "react"
+import { motion , AnimatePresence} from 'framer-motion';
 
 const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
   return (
-    <div
+    <motion.div layout
       className="card"
       style={{
         backgroundImage:
@@ -11,6 +12,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
           ")",
       }}
     >
+      <AnimatePresence>
       <div className="content">
         <h1 className="header">{heading}</h1>
         <p className="text">{paragraph}</p>
@@ -32,8 +34,10 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
           Code   
         </a>
       </div>
-    </div>
+      </AnimatePresence>
+    </motion.div>
   )
 }
 
 export default Card
+
