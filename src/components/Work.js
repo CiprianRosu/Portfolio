@@ -7,13 +7,14 @@ import '../styles/work.scss';
 import '../styles/card.scss';
 // import Filter from "./Filter";
 import '../styles/filter.scss';
+import { motion } from 'framer-motion';
 
 const Work = () => {
 
   const[items , setItems] = useState(data.projects)
   const filterItem = (categItem) => {
     const updatedItems = data.projects.filter((curElem) => {
-        return curElem.category === categItem;
+        return curElem.category.includes(categItem);
     })
     setItems(updatedItems)
   }
@@ -26,16 +27,21 @@ const Work = () => {
            <Fade bottom> 
             <h1>Work</h1>
             <div className='filter-container'>
-            <button onClick={() => setItems(data.projects)}>All</button> 
-            <button onClick={() => filterItem('JS')}>JS</button>
-            <button onClick={() => filterItem('ReactJS')}>React</button>
+            <button className ='btn' onClick={() => setItems(data.projects)}>All</button>
+            &nbsp;&nbsp; 
+            <button className ='btn' onClick={() => filterItem('JS')}>JS</button>
+            &nbsp;&nbsp;
+            <button className ='btn' onClick={() => filterItem('ReactJS')}>ReactJs</button>
             </div>
-             
-        
-        </Fade>
+          </Fade>
 
-          <div className="grid">
-            {/* <Fade bottom cascade> */}
+          <motion.div 
+          layout
+          animate ={{opacity:1 }}
+          initial={{opacity: 0 }}
+          exit={{opacity: 0 }}
+           className="grid">
+             <Fade bottom cascade>
               {items.map((proect, index) => (
                 
                 <Card
@@ -46,8 +52,8 @@ const Work = () => {
                   projectLink={proect.url}
                 ></Card>
               ))}
-            {/* </Fade> */}
-          </div>
+             </Fade> 
+          </motion.div>
         </div>
       </div>
     </div>
@@ -55,3 +61,4 @@ const Work = () => {
 }
 
 export default Work
+
