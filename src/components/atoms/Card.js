@@ -40,4 +40,3 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
 }
 
 export default Card
-

@@ -14,9 +14,14 @@ import githubIcon from "./images/github.svg"
 // import dribbbleIcon from "./images/dribbble.svg"
 // import instagramIcon from "./images/instagram.svg"
 import linkedinIcon from "./images/linkedin.svg"
+import gitIcon from "./images/git.svg"
+import git2Icon from "./images/git2.svg"
+import nodeIcon from "./images/node-js.svg"
+import mysqlIcon from "./images/mysql.svg"
+
 
 const data = {
-  //(Please Do Not Remove The comma(,) after every variable)
+  
   //Change The Website Template
 
   //   Header Details ---------------------
@@ -93,7 +98,40 @@ const data = {
         "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
-      category: ["all", "JS"],
+      category: ["all", "ReactJS"],
+    },
+    {
+      title: "Project Six", //Project Title - Add Your Project Title Here
+      para:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+      //Project URL - Add Your Project Url Here
+      url: "http://chetanverma.com/",
+      category: ["all" , "ReactJS"],
+    },
+    {
+      title: "Project Six", //Project Title - Add Your Project Title Here
+      para:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+      //Project URL - Add Your Project Url Here
+      url: "http://chetanverma.com/",
+      category: ["all" , "JS"],
+    },
+    {
+      title: "Project Six", //Project Title - Add Your Project Title Here
+      para:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+      //Project URL - Add Your Project Url Here
+      url: "http://chetanverma.com/",
+      category: ["all" , "JS"],
     },
     {
       title: "Project Six", //Project Title - Add Your Project Title Here
@@ -170,6 +208,26 @@ const data = {
     },
     {
       img: firebaseIcon,
+      para:
+        "",
+    },
+    {
+      img: gitIcon,
+      para:
+        "",
+    },
+    {
+      img: git2Icon,
+      para:
+        "",
+    },
+    {
+      img: nodeIcon,
+      para:
+        "",
+    },
+    {
+      img: mysqlIcon,
       para:
         "",
     },
