@@ -15,7 +15,7 @@
        
         padding: 10px;
         font-family: "Open Sans";
-        opacity: 0.6;
+        opacity:1;
         transition: all 0.2s ease-in-out;
         font-size: 12px;
         font-weight: 600;
@@ -26,7 +26,7 @@
         
         cursor: pointer;
         &:hover {
-          opacity: 1;
+          opacity: 0.6;
         }
         a{
           color: black;
