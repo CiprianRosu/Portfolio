@@ -1,12 +1,14 @@
 // Skills Icons
-import htmlIcon from "./images/html.svg"
+import html2Icon from "./images/html2.svg"
+
 import cssIcon from "./images/css.svg"
-import reactIcon from "./images/react.svg"
-import jsIcon from "./images/javascript.svg"
-import designIcon from "./images/design.svg"
-import codeIcon from "./images/code.svg"
+import react2Icon from "./images/react2.svg"
+import js2Icon from "./images/javascript2.svg"
+import typescriptIcon from "./images/typescript.svg"
+
+import php2Icon from "./images/php2.svg"
 // import profileIcon from "./images/profile.svg"
-import firebaseIcon from "./images/firebase.svg"
+
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -14,10 +16,10 @@ import githubIcon from "./images/github.svg"
 // import dribbbleIcon from "./images/dribbble.svg"
 // import instagramIcon from "./images/instagram.svg"
 import linkedinIcon from "./images/linkedin.svg"
-import gitIcon from "./images/git.svg"
-import git2Icon from "./images/git2.svg"
-import nodeIcon from "./images/node-js.svg"
-import mysqlIcon from "./images/mysql.svg"
+
+import git3Icon from "./images/git3.svg"
+
+import mysql2Icon from "./images/mysql2.svg"
 
 
 const data = {
@@ -57,7 +59,7 @@ const data = {
       category: ["all", "JS"] ,
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "Netflix Clone", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
@@ -65,7 +67,7 @@ const data = {
         "https://user-images.githubusercontent.com/15197958/170085506-178d9a36-11ab-4442-93e6-3a4219d30751.png",
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
-      category: ["all", "JS"],  
+      category: ["all", "ReactJS"],  
     },
     {
       title: "Project Three", //Project Title - Add Your Project Title Here
@@ -112,14 +114,14 @@ const data = {
       category: ["all" , "ReactJS"],
     },
     {
-      title: "Project Six", //Project Title - Add Your Project Title Here
+      title: "Weather App API", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+        "https://user-images.githubusercontent.com/15197958/182199987-54985f4b-8ae6-459a-b573-cd56cd6b29df.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "https://62ef74b5488b4a6a83a06a59--verdant-chaja-f4fa07.netlify.app/",
       category: ["all" , "JS"],
     },
     {
@@ -175,59 +177,56 @@ const data = {
   //   Import Icons from the top and link it here
 
   skills: [
+    
     {
-      img: htmlIcon,
+      img: html2Icon,
       para:
         "",
     },
+    
+    
     
     {
       img: cssIcon,
       para:
         "",
     },
+    
+  
     {
-      img: jsIcon,
+      img: js2Icon,
       para:
         "",
     },
     {
-      img: reactIcon,
+      img: typescriptIcon,
+      para:
+        "",
+    },
+    
+    {
+      img: php2Icon,
+      para:
+        "",
+    },
+    
+    {
+      img: react2Icon,
+      para:
+        "",
+    },
+    // {
+    //   img: designIcon,
+    //   para:
+    //     "",
+    // },
+    {
+      img: git3Icon,
       para:
         "",
     },
     {
-      img: designIcon,
-      para:
-        "",
-    },
-    {
-      img: codeIcon,
-      para:
-        "",
-    },
-    {
-      img: firebaseIcon,
-      para:
-        "",
-    },
-    {
-      img: gitIcon,
-      para:
-        "",
-    },
-    {
-      img: git2Icon,
-      para:
-        "",
-    },
-    {
-      img: nodeIcon,
-      para:
-        "",
-    },
-    {
-      img: mysqlIcon,
+      img: mysql2Icon,
       para:
         "",
     },
@@ -239,7 +238,7 @@ const data = {
 
   promotionHeading: "About me",
   promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "I am junior frontend developer with experience in building digital products with different technologies. Currently my stack of technologies has a JavaScript as main language, I like to develop solutions that meet quality in terms of performance, accessibility and good practices. I am looking for job opportunities to grow professionally alongside a team of professionals in the industry.",
   // End Promotion Section -----------------
 
   //   Contact Section --------------
