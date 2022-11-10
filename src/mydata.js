@@ -66,7 +66,7 @@ const data = {
       imageSrc:
         "https://user-images.githubusercontent.com/15197958/170085506-178d9a36-11ab-4442-93e6-3a4219d30751.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "",
       category: ["all", "ReactJS"],  
     },
     {
@@ -77,7 +77,7 @@ const data = {
       imageSrc:
         "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "",
       category: ["all",  "ReactJS"],
     },
     {
@@ -88,7 +88,7 @@ const data = {
       imageSrc:
         "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "",
       category: ["all" , "ReactJS"],
     },
     {
@@ -99,7 +99,7 @@ const data = {
       imageSrc:
         "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "",
       category: ["all", "ReactJS"],
     },
     {
@@ -110,7 +110,7 @@ const data = {
       imageSrc:
         "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "",
       category: ["all" , "ReactJS"],
     },
     {
@@ -132,7 +132,7 @@ const data = {
       imageSrc:
         "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "",
       category: ["all" , "JS"],
     },
     {
@@ -143,7 +143,7 @@ const data = {
       imageSrc:
         "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "",
       category: ["all" , "JS"],
     },
 
