@@ -31,7 +31,7 @@ const Work = () => {
             &nbsp;&nbsp; 
             <button className ='btn' onClick={() => filterItem('JS')}>JS</button>
             &nbsp;&nbsp;
-            <button className ='btn' onClick={() => filterItem('ReactJS')}>ReactJs</button>
+            <button className ='btn' onClick={() => filterItem('ReactJS')}>ReactJS</button>
             </div>
           </Fade>
 
@@ -50,6 +50,7 @@ const Work = () => {
                   paragraph={proect.para}
                   imgUrl={proect.imageSrc}
                   projectLink={proect.url}
+                  githubLink ={proect.githuburl}
                 ></Card>
               ))}
              </Fade> 
