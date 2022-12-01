@@ -1,7 +1,7 @@
 import React from "react"
 import { motion , AnimatePresence} from 'framer-motion';
 
-const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
+const Card = ({githubLink, heading, paragraph, imgUrl, projectLink }) => {
   return (
     <motion.div layout
       className="card"
@@ -20,18 +20,23 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
           href={projectLink ? projectLink : "#"}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn"
         >
-          View 
+          <button className="btn">
+          Live
+          </button>
+         
         </a>
         &nbsp;&nbsp;
         <a
-          href={projectLink ? projectLink : "#"}
+          href={githubLink ? githubLink : "#"}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn"
+          
         >
-          Code   
+          <button className="btn">
+          Code
+          </button>
+             
         </a>
       </div>
       </AnimatePresence>
