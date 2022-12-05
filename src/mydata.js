@@ -36,22 +36,15 @@ const data = {
       githuburl:"https://github.com/CiprianRosu/Travel",
       category: ["all", "JS"] ,
     },
-    {
-      title: "Netflix Clone - in progress", 
-      para:"This is a Netflix-Clone app built with ReactJs . The movies seen in the app are not hardcoded , they are from a third party api.The librabry used to for Http requests is axios.", 
-      imageSrc:"https://user-images.githubusercontent.com/15197958/170085506-178d9a36-11ab-4442-93e6-3a4219d30751.png",
-      url: "",
-      githuburl:"https://github.com/CiprianRosu/Netflix-Clone",
-      category: ["all", "ReactJS"],  
-    },
-    {
-      title: "Dropdown Navigation Layout", 
-      para:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", 
-      imageSrc:"https://user-images.githubusercontent.com/15197958/199315195-def157df-f873-431b-ba76-3f57b295eabe.jpg",
-      url: "https://splendid-pixie-86ea13.netlify.app/",
-      githuburl: "https://github.com/CiprianRosu/Intro-section-with-dropdown-navigation-HTML-CSS-JS",
-      category: ["all",  "JS"],
-    },
+    // {
+    //   title: "Netflix Clone - in progress", 
+    //   para:"This is a Netflix-Clone app built with ReactJs . The movies seen in the app are not hardcoded , they are from a third party api.The librabry used to for Http requests is axios.", 
+    //   imageSrc:"https://user-images.githubusercontent.com/15197958/170085506-178d9a36-11ab-4442-93e6-3a4219d30751.png",
+    //   url: "",
+    //   githuburl:"https://github.com/CiprianRosu/Netflix-Clone",
+    //   category: ["all", "ReactJS"],  
+    // },
+  
     {
       title: "Airbnb-Clone-Homepage", 
       para:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", 
@@ -69,14 +62,14 @@ const data = {
       category: ["all", "ReactJS"],
     },
   
-    {
-      title: "Weather App API",
-      para:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", 
-      imageSrc:"https://user-images.githubusercontent.com/15197958/182199987-54985f4b-8ae6-459a-b573-cd56cd6b29df.png",
-      url: "https://62ef74b5488b4a6a83a06a59--verdant-chaja-f4fa07.netlify.app/",
-      githuburl:"https://github.com/CiprianRosu/Weather-App-JS",
-      category: ["all" , "JS"],
-    },
+    // {
+    //   title: "Weather App API",
+    //   para:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", 
+    //   imageSrc:"https://user-images.githubusercontent.com/15197958/182199987-54985f4b-8ae6-459a-b573-cd56cd6b29df.png",
+    //   url: "https://62ef74b5488b4a6a83a06a59--verdant-chaja-f4fa07.netlify.app/",
+    //   githuburl:"https://github.com/CiprianRosu/Weather-App-JS",
+    //   category: ["all" , "JS"],
+    // },
     {
       title: "Task List - CRUD App",
       para:"The app can create a list of tasks and the user can Create , Read , Update and Delete tasks in the list.", 
@@ -92,6 +85,22 @@ const data = {
       url: "https://book-management-app-alpha.vercel.app/",
       githuburl:"https://github.com/CiprianRosu/Book-Management-App",
       category: ["all" , "ReactJS"],
+    },
+    {
+      title: "News Homepage",
+      para:"The layout is made in HTML & CSS and the mobile view has the toggle menu made in Javascript.", 
+      imageSrc:"https://user-images.githubusercontent.com/15197958/204095572-0630ed50-5235-498a-8347-8359f77c8344.jpg",
+      url: "https://news-homepage-html-css-js.vercel.app/",
+      githuburl:"https://github.com/CiprianRosu/News-Homepage-HTML-CSS-JS",
+      category: ["all" , "JS"],
+    },
+    {
+      title: "Dropdown Navigation Layout", 
+      para:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", 
+      imageSrc:"https://user-images.githubusercontent.com/15197958/199315195-def157df-f873-431b-ba76-3f57b295eabe.jpg",
+      url: "https://splendid-pixie-86ea13.netlify.app/",
+      githuburl: "https://github.com/CiprianRosu/Intro-section-with-dropdown-navigation-HTML-CSS-JS",
+      category: ["all",  "JS"],
     },
    
   ],
