@@ -85,6 +85,14 @@ const data = {
       githuburl:"https://github.com/CiprianRosu/Task-List-App---JS",
       category: ["all" , "JS"],
     },
+    {
+      title: "Book Management - CRUD App",
+      para:"The app can perform CRUD operations , uses React Router for navigation and stores data in local storage.", 
+      imageSrc:"https://user-images.githubusercontent.com/15197958/173627129-72d0a841-bbaa-4c08-8ca7-011b5eef386e.jpg",
+      url: "https://book-management-app-alpha.vercel.app/",
+      githuburl:"https://github.com/CiprianRosu/Book-Management-App",
+      category: ["all" , "ReactJS"],
+    },
    
   ],
 
