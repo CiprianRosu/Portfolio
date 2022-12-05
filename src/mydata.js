@@ -47,7 +47,7 @@ const data = {
   
     {
       title: "Airbnb-Clone-Homepage", 
-      para:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", 
+      para:"The app is basically a UI clone of the Airbnb website. It was built using reusable components, {useState} hook along with material-ui library for icons and react-date-range library for the date picker.", 
       imageSrc:"https://user-images.githubusercontent.com/15197958/172471135-143467ce-0640-4169-b854-7a476501c505.png",
       url: "https://relaxed-cray-3961ca.netlify.app/",
       githuburl:"https://github.com/CiprianRosu/Airbnb-Clone-Homepage",
@@ -55,7 +55,7 @@ const data = {
     },
     {
       title: "Restaurant-App", 
-      para:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", 
+      para:"Restaurant landing page built after a Figma and is using functional components. File and folder structure and management. CSS Grid , Flexbox & BEM Model. Media Queries and animations.", 
       imageSrc:"https://user-images.githubusercontent.com/15197958/170079569-feb2b700-ee6d-4833-be74-688839fed7fd.png",
       url: "https://restaurant-app-xi.vercel.app/",
       githuburl:"https://github.com/CiprianRosu/Restaurant-app",
@@ -72,7 +72,7 @@ const data = {
     // },
     {
       title: "Task List - CRUD App",
-      para:"The app can create a list of tasks and the user can Create , Read , Update and Delete tasks in the list.", 
+      para:"Simple JS app that manages a list of tasks and the user can Create , Read , Update and Delete tasks in the list.", 
       imageSrc:"https://user-images.githubusercontent.com/15197958/205513812-4052841f-3233-4556-9ee7-c2ff9f57f1bb.png",
       url: "https://task-list-app-js.vercel.app/",
       githuburl:"https://github.com/CiprianRosu/Task-List-App---JS",
@@ -94,14 +94,14 @@ const data = {
       githuburl:"https://github.com/CiprianRosu/News-Homepage-HTML-CSS-JS",
       category: ["all" , "JS"],
     },
-    {
-      title: "Dropdown Navigation Layout", 
-      para:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", 
-      imageSrc:"https://user-images.githubusercontent.com/15197958/199315195-def157df-f873-431b-ba76-3f57b295eabe.jpg",
-      url: "https://splendid-pixie-86ea13.netlify.app/",
-      githuburl: "https://github.com/CiprianRosu/Intro-section-with-dropdown-navigation-HTML-CSS-JS",
-      category: ["all",  "JS"],
-    },
+    // {
+    //   title: "Dropdown Navigation Layout", 
+    //   para:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", 
+    //   imageSrc:"https://user-images.githubusercontent.com/15197958/199315195-def157df-f873-431b-ba76-3f57b295eabe.jpg",
+    //   url: "https://splendid-pixie-86ea13.netlify.app/",
+    //   githuburl: "https://github.com/CiprianRosu/Intro-section-with-dropdown-navigation-HTML-CSS-JS",
+    //   category: ["all",  "JS"],
+    // },
    
   ],
 
