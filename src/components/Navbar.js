@@ -9,12 +9,7 @@ import '../index.css';
 
 function Navbar() {
 
-  // const [theme, setTheme] = useLocalStorage('theme' ? 'dark' : 'light')
 
-  // const switchTheme = () => {
-  //   const newTheme = theme === 'light' ? 'dark' : 'light';
-  //   setTheme(newTheme)
-  // }
 
   return (
     
@@ -26,10 +21,7 @@ function Navbar() {
           >
             ciprianrosu.
           </div>
-          {/* <div className='theme-toggle'> */}
-          {/* <h2>Light Theme</h2> */}
-          {/* <i onClick={switchTheme} className='fas fa-toggle-on'></i> */}
-        {/* </div> */}
+          
           <div className="links-wrapper">
               <li><a href="#work" >Work</a></li>
               <li><a href="#about" >About</a></li>
