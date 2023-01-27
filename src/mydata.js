@@ -88,7 +88,7 @@ const data = {
     },
     {
       title: "News Homepage",
-      para:"The layout is made in HTML & CSS and the mobile view has the toggle menu made in Javascript.", 
+      para:"The layout is made in HTML & CSS with Flexbox and Grid , is fully responsive and the mobile view has the toggle menu made in Javascript.", 
       imageSrc:"https://user-images.githubusercontent.com/15197958/204095572-0630ed50-5235-498a-8347-8359f77c8344.jpg",
       url: "https://news-homepage-html-css-js.vercel.app/",
       githuburl:"https://github.com/CiprianRosu/News-Homepage-HTML-CSS-JS",
